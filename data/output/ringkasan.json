@@ -1,0 +1,99 @@
+{
+  "keuangan": {
+    "omzet": 3198500,
+    "hpp": 2666000,
+    "laba_kotor": 532500,
+    "belanja": 1398000,
+    "margin": 16.6,
+    "per_hari": {
+      "2026-10-01": {
+        "omzet": 362500,
+        "laba": 56500,
+        "belanja": 0
+      },
+      "2026-10-02": {
+        "omzet": 302000,
+        "laba": 51000,
+        "belanja": 0
+      },
+      "2026-10-03": {
+        "omzet": 442000,
+        "laba": 70000,
+        "belanja": 0
+      },
+      "2026-10-04": {
+        "omzet": 150000,
+        "laba": 20000,
+        "belanja": 540000
+      },
+      "2026-10-05": {
+        "omzet": 290000,
+        "laba": 78500,
+        "belanja": 0
+      },
+      "2026-10-07": {
+        "omzet": 390000,
+        "laba": 42000,
+        "belanja": 365000
+      },
+      "2026-10-08": {
+        "omzet": 60000,
+        "laba": 22500,
+        "belanja": 205000
+      },
+      "2026-10-09": {
+        "omzet": 642000,
+        "laba": 106000,
+        "belanja": 0
+      },
+      "2026-10-10": {
+        "omzet": 526000,
+        "laba": 80000,
+        "belanja": 288000
+      },
+      "2026-11-18": {
+        "omzet": 34000,
+        "laba": 6000,
+        "belanja": 0
+      }
+    },
+    "per_kategori": {
+      "Sembako": 2486000,
+      "Minuman": 265000,
+      "Makanan": 157500,
+      "Kebersihan": 290000
+    }
+  },
+  "nilai_persediaan": 1904500,
+  "terlaris": [
+    [
+      "B005",
+      60
+    ],
+    [
+      "B007",
+      45
+    ],
+    [
+      "B006",
+      35
+    ]
+  ],
+  "stok_menipis": [
+    "B008",
+    "B001",
+    "B004"
+  ],
+  "duplikat_dibuang": 1,
+  "ditolak": [
+    "barang.csv baris 12: 'harga_beli' harus angka bulat, bukan 'abc'",
+    "barang.csv baris 13: kode 'B003' ganda",
+    "barang.csv baris 14: harga jual lebih kecil dari harga beli",
+    "transaksi.csv baris 21: 'jumlah' minimal 1, bukan 0",
+    "transaksi.csv baris 33: tanggal tidak valid: '2026-13-10'",
+    "transaksi.csv baris 34: jenis 'RETUR' tidak dikenal (valid: BELI, JUAL)",
+    "transaksi.csv baris 35: 'jumlah' harus angka bulat, bukan 'dua'",
+    "T017: stok B009 tidak cukup (tersedia 8, diminta 12)",
+    "T018: kode barang 'B999' tidak terdaftar"
+  ]
+}
