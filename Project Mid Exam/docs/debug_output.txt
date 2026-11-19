@@ -1,8 +1,0 @@
-FIXED : {'2026-10-01': {'omzet': 82000}}
-BUGGY : Traceback (most recent call last):
-  File "/home/claude/uts_toko/docs/debug_demo.py", line 20, in <module>
-    rekap_harian_buggy(data)
-  File "/home/claude/uts_toko/docs/debug_demo.py", line 6, in rekap_harian_buggy
-    per_hari[t["tanggal"]]["omzet"] += t["nilai"]     # BUG: kunci tanggal belum ada
-    ~~~~~~~~^^^^^^^^^^^^^^
-KeyError: '2026-10-01'
