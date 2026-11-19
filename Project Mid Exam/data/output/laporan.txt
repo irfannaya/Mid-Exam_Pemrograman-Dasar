@@ -1,0 +1,50 @@
+============================================================
+LAPORAN KEUANGAN & STOK TOKO
+============================================================
+Omzet penjualan          : Rp 3.198.500
+Modal barang terjual     : Rp 2.666.000
+Laba kotor               : Rp 532.500  (margin 16.6%)
+Belanja stok (periode)   : Rp 1.398.000
+Nilai persediaan akhir   : Rp 1.904.500
+Transaksi duplikat dibuang: 1
+Data/transaksi ditolak   : 9
+
+[Rekap Harian]
+  TANGGAL              OMZET          LABA       BELANJA
+  2026-10-01      Rp 362.500     Rp 56.500          Rp 0
+  2026-10-02      Rp 302.000     Rp 51.000          Rp 0
+  2026-10-03      Rp 442.000     Rp 70.000          Rp 0
+  2026-10-04      Rp 150.000     Rp 20.000    Rp 540.000
+  2026-10-05      Rp 290.000     Rp 78.500          Rp 0
+  2026-10-07      Rp 390.000     Rp 42.000    Rp 365.000
+  2026-10-08       Rp 60.000     Rp 22.500    Rp 205.000
+  2026-10-09      Rp 642.000    Rp 106.000          Rp 0
+  2026-10-10      Rp 526.000     Rp 80.000    Rp 288.000
+  2026-11-18       Rp 34.000      Rp 6.000          Rp 0
+
+[Omzet per Kategori]
+  Sembako         Rp 2.486.000
+  Kebersihan        Rp 290.000
+  Minuman           Rp 265.000
+  Makanan           Rp 157.500
+
+[Barang Terlaris]
+  1. Kopi Sachet         60 unit
+  2. Mie Instan          45 unit
+  3. Teh Botol           35 unit
+
+[Peringatan Stok - perlu belanja ulang]
+  B008 Sabun Mandi        sisa   0 (min 10)  -> HABIS
+  B001 Beras 5kg          sisa   2 (min 5)  -> MENIPIS
+  B004 Telur 1kg          sisa   4 (min 5)  -> MENIPIS
+
+[Data / Transaksi Ditolak]
+  - barang.csv baris 12: 'harga_beli' harus angka bulat, bukan 'abc'
+  - barang.csv baris 13: kode 'B003' ganda
+  - barang.csv baris 14: harga jual lebih kecil dari harga beli
+  - transaksi.csv baris 21: 'jumlah' minimal 1, bukan 0
+  - transaksi.csv baris 33: tanggal tidak valid: '2026-13-10'
+  - transaksi.csv baris 34: jenis 'RETUR' tidak dikenal (valid: BELI, JUAL)
+  - transaksi.csv baris 35: 'jumlah' harus angka bulat, bukan 'dua'
+  - T017: stok B009 tidak cukup (tersedia 8, diminta 12)
+  - T018: kode barang 'B999' tidak terdaftar

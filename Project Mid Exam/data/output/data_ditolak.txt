@@ -1,0 +1,9 @@
+barang.csv baris 12: 'harga_beli' harus angka bulat, bukan 'abc'
+barang.csv baris 13: kode 'B003' ganda
+barang.csv baris 14: harga jual lebih kecil dari harga beli
+transaksi.csv baris 21: 'jumlah' minimal 1, bukan 0
+transaksi.csv baris 33: tanggal tidak valid: '2026-13-10'
+transaksi.csv baris 34: jenis 'RETUR' tidak dikenal (valid: BELI, JUAL)
+transaksi.csv baris 35: 'jumlah' harus angka bulat, bukan 'dua'
+T017: stok B009 tidak cukup (tersedia 8, diminta 12)
+T018: kode barang 'B999' tidak terdaftar
